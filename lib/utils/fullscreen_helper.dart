@@ -1,11 +1,20 @@
 // lib/utils/fullscreen_helper.dart
 
-import 'package:flutter/services.dart';
+import 'package:flutter/foundation.dart';
 import 'package:window_manager/window_manager.dart';
 
 class FullscreenHelper {
   static bool _isFullscreen = true;
-  static List<VoidCallback> _listeners = [];
+  static final List<VoidCallback> _listeners = [];
+
+  static bool get _supportsWindowManager {
+    if (kIsWeb) {
+      return false;
+    }
+    return defaultTargetPlatform == TargetPlatform.windows ||
+        defaultTargetPlatform == TargetPlatform.linux ||
+        defaultTargetPlatform == TargetPlatform.macOS;
+  }
 
   static bool get isFullscreen => _isFullscreen;
 
@@ -32,13 +41,17 @@ class FullscreenHelper {
   }
 
   static Future<void> enterFullscreen() async {
-    await windowManager.setFullScreen(true);
+    if (_supportsWindowManager) {
+      await windowManager.setFullScreen(true);
+    }
     _isFullscreen = true;
     _notifyListeners();
   }
 
   static Future<void> exitFullscreen() async {
-    await windowManager.setFullScreen(false);
+    if (_supportsWindowManager) {
+      await windowManager.setFullScreen(false);
+    }
     _isFullscreen = false;
     _notifyListeners();
   }
