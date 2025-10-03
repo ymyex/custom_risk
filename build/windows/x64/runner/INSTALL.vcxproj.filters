@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ymyex\Projects\custom_risk - Copy - Copy - Copy\build\windows\x64\CMakeFiles\3697948cdd71378b0bbee223a583b1cf\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FAC28D2C-D48D-3B22-8CAE-8E15721E87F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
