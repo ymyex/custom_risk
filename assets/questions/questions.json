@@ -1,0 +1,158 @@
+{
+  "questions": [
+    {
+      "id": "general_001",
+      "categoryId": "general",
+      "imagePath": "images/global/lemon.jpg",
+      "answerText": "ليمون",
+      "difficulty": 1
+    },
+    {
+      "id": "general_002",
+      "categoryId": "general",
+      "imagePath": "images/global/iceland.jpg",
+      "answerText": "ايسلاند",
+      "difficulty": 2
+    },
+    {
+      "id": "general_003",
+      "categoryId": "general",
+      "imagePath": "images/global/5g.jpg",
+      "answerText": "5g",
+      "difficulty": 2
+    },
+    {
+      "id": "general_004",
+      "categoryId": "general",
+      "imagePath": "images/global/empty_quarter.jpg",
+      "answerText": "الربع الخالي",
+      "difficulty": 3
+    },
+    {
+      "id": "general_005",
+      "categoryId": "general",
+      "imagePath": "images/global/capitalism.jpg",
+      "answerText": "الرأس مالية",
+      "difficulty": 2
+    },
+    {
+      "id": "general_006",
+      "categoryId": "general",
+      "imagePath": "images/global/samosa.jpg",
+      "answerText": "سمبوسه",
+      "difficulty": 1
+    },
+    {
+      "id": "general_007",
+      "categoryId": "general",
+      "imagePath": "images/global/pulled_chicken.jpg",
+      "answerText": "دجاج مسحب",
+      "difficulty": 2
+    },
+    {
+      "id": "general_008",
+      "categoryId": "general",
+      "imagePath": "images/global/chess.jpg",
+      "answerText": "شطرنج",
+      "difficulty": 1
+    },
+    {
+      "id": "general_009",
+      "categoryId": "general",
+      "imagePath": "images/global/uber.jpg",
+      "answerText": "اوبر",
+      "difficulty": 1
+    },
+    {
+      "id": "general_010",
+      "categoryId": "general",
+      "imagePath": "images/global/bird.jpg",
+      "answerText": "عصفور",
+      "difficulty": 1
+    },
+    {
+      "id": "general_011",
+      "categoryId": "general",
+      "imagePath": "images/global/carrefour.jpg",
+      "answerText": "كارفور",
+      "difficulty": 1
+    },
+    {
+      "id": "general_012",
+      "categoryId": "general",
+      "imagePath": "images/global/shawarma.jpg",
+      "answerText": "شاورما",
+      "difficulty": 1
+    },
+    {
+      "id": "general_013",
+      "categoryId": "general",
+      "imagePath": "images/global/oyster.jpg",
+      "answerText": "محار",
+      "difficulty": 2
+    },
+    {
+      "id": "person_001",
+      "categoryId": "guess_person",
+      "imagePath": "images/people/hasan_yasser.jpg",
+      "answerText": "حسن ياسر",
+      "difficulty": 2
+    },
+    {
+      "id": "person_002",
+      "categoryId": "guess_person",
+      "imagePath": "images/people/adel.jpg",
+      "answerText": "عادل",
+      "difficulty": 2
+    },
+    {
+      "id": "person_003",
+      "categoryId": "guess_person",
+      "imagePath": "images/people/omar_mohammad.jpg",
+      "answerText": "عمر محمد",
+      "difficulty": 2
+    },
+    {
+      "id": "person_004",
+      "categoryId": "guess_person",
+      "imagePath": "images/people/yousef_saeed.jpg",
+      "answerText": "يوسف سعيد",
+      "difficulty": 2
+    },
+    {
+      "id": "eye_001",
+      "categoryId": "from_eye",
+      "imagePath": "images/1q.jpg",
+      "answerImagePath": "images/1a.jpg",
+      "difficulty": 2
+    },
+    {
+      "id": "eye_002",
+      "categoryId": "from_eye",
+      "imagePath": "images/2q.jpg",
+      "answerImagePath": "images/2a.jpg",
+      "difficulty": 2
+    },
+    {
+      "id": "eye_003",
+      "categoryId": "from_eye",
+      "imagePath": "images/3q.jpg",
+      "answerImagePath": "images/3a.jpg",
+      "difficulty": 2
+    },
+    {
+      "id": "eye_004",
+      "categoryId": "from_eye",
+      "imagePath": "images/4q.jpg",
+      "answerImagePath": "images/4a.jpg",
+      "difficulty": 2
+    },
+    {
+      "id": "eye_005",
+      "categoryId": "from_eye",
+      "imagePath": "images/5q.jpg",
+      "answerImagePath": "images/5a.jpg",
+      "difficulty": 2
+    }
+  ]
+}
